@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd"
+        objectQuotingStrategy="QUOTE_ONLY_RESERVED_WORDS">
+    <changeSet id="1" author="onboarding">
+        <insert tableName="LOCATION">
+            <column name="ID" value="5c41fe5b-a90f-41d4-8d51-c23a446ebd31"/>
+            <column name="CITY" value="Berlin"/>
+            <column name="ADDRESS" value="Unter den Linden 35, 10117 Berlin"/>
+            <column name="BUILDING" value="POINT (13.388418471456845 52.51662855057603)"/>
+            <column name="BUILDING_AREA"
+                    value="POLYGON ((13.388342028499917 52.51669107928498, 13.388506984354333 52.516700877695314, 13.38851997936635 52.51655651115516, 13.388368850590066 52.516546552478985, 13.388342028499917 52.51669107928498))"/>
+            <column name="TYPE_" value="10"/>
+        </insert>
+        <insert tableName="LOCATION">
+            <column name="ID" value="b55a586c-e877-460f-bca7-00459ec69516"/>
+            <column name="CITY" value="Berlin"/>
+            <column name="ADDRESS" value="Müllerstraße 53, 13349 Berlin"/>
+            <column name="BUILDING" value="POINT (13.347796079315284 52.55344847222085)"/>
+            <column name="BUILDING_AREA"
+                    value="POLYGON ((13.347878609736783 52.553551482547135, 13.34795260252847 52.55350646966119, 13.347713548893793 52.55334632728869, 13.347640979040412 52.553390474703775, 13.347878609736783 52.553551482547135))"/>
+            <column name="TYPE_" value="20"/>
+        </insert>
+        <insert tableName="LOCATION">
+            <column name="ID" value="25447008-dcd7-471f-a9a5-573cafed9acd"/>
+            <column name="CITY" value="Paris"/>
+            <column name="ADDRESS" value="Franprix, 4-6 Rue de la Varenne, 94100 Saint-Maur-des-Fossés"/>
+            <column name="BUILDING" value="POINT (2.4715531426646278 48.80941767455588)"/>
+            <column name="BUILDING_AREA"
+                    value="POLYGON ((2.4714376933843676 48.809456038151694, 2.4715232909791003 48.80948443605831, 2.471669345616266 48.8093692666707, 2.4715292768248855 48.80930261029468, 2.4714376933843676 48.809456038151694))"/>
+            <column name="TYPE_" value="10"/>
+        </insert>
+        <insert tableName="LOCATION">
+            <column name="ID" value="e5c5b6f9-a9a6-4841-bbdc-50da79df474f"/>
+            <column name="CITY" value="Brussel"/>
+            <column name="ADDRESS" value="Rue des Ateliers 19, 1080 Molenbeek-Saint-Jean"/>
+            <column name="BUILDING" value="POINT (4.343780867769669 50.85770300078249)"/>
+            <column name="BUILDING_AREA"
+                    value="POLYGON ((4.343613790308248 50.85777166922301, 4.343755314597016 50.85782869008645, 4.343954180623476 50.85762295231865, 4.343852917554789 50.857531256167135, 4.343613790308248 50.85777166922301))"/>
+            <column name="TYPE_" value="20"/>
+        </insert>
+        <insert tableName="LOCATION">
+            <column name="ID" value="a32a1f58-151b-4ca6-bf1a-023eb974d449"/>
+            <column name="CITY" value="London"/>
+            <column name="ADDRESS" value="16 Great Queen St, London WC2B 5AH"/>
+            <column name="BUILDING" value="POINT (-0.12087743317139137 51.515964846947014)"/>
+            <column name="BUILDING_AREA"
+                    value="POLYGON ((-0.12095177640851573 51.51612390908605, -0.12067332719310435 51.51589583568742, -0.12077335263941717 51.51583187393885, -0.1211058696636463 51.51604395728663, -0.12095177640851573 51.51612390908605))"/>
+            <column name="TYPE_" value="10"/>
+        </insert>
+        <insert tableName="LOCATION">
+            <column name="ID" value="a435589b-6985-4f49-902e-a8ecfca46a58"/>
+            <column name="CITY" value="Manchester"/>
+            <column name="ADDRESS" value="332 Deansgate, Greater, Hulme, Manchester M3 4LY"/>
+            <column name="BUILDING" value="POINT (-2.2515292040452852 53.47567300391552)"/>
+            <column name="BUILDING_AREA"
+                    value="POLYGON ((-2.251564072762479 53.47573735349846, -2.251409845744123 53.47570061797188, -2.2514809242830176 53.47559041120141, -2.2516320260514098 53.47562786461771, -2.251564072762479 53.47573735349846))"/>
+            <column name="TYPE_" value="20"/>
+        </insert>
+        <insert tableName="LOCATION">
+            <column name="ID" value="e2b92d6a-d29e-441c-9592-19c822cead13"/>
+            <column name="CITY" value="Gotebork"/> <!-- Göteborg -->
+            <column name="ADDRESS" value="Västra Hamngatan 7C, 411 17 Göteborg"/>
+            <column name="BUILDING" value="POINT (11.963135576106785 57.704563129390436)"/>
+            <column name="BUILDING_AREA"
+                    value="POLYGON ((11.96300820732398 57.70458384280684, 11.963220228063422 57.70461478409899, 11.963256718279705 57.70455189253181, 11.963227777763343 57.70452801388677, 11.963061055223426 57.704502117310284, 11.96300820732398 57.70458384280684))"/>
+            <column name="TYPE_" value="10"/>
+        </insert>
+        <insert tableName="LOCATION">
+            <column name="ID" value="2d2e00b8-8d80-49df-b9f6-2b3e9b79a4a1"/>
+            <column name="CITY" value="Rome"/>
+            <column name="ADDRESS" value="Viale Liegi, 34, 00198 Roma RM"/>
+            <column name="BUILDING" value="POINT (12.496850862820267 41.921075056228574)"/>
+            <column name="BUILDING_AREA"
+                    value="POLYGON ((12.496656369647209 41.921061396580285, 12.496832514407714 41.92126355907635, 12.497082052818431 41.921116035155876, 12.496878385439095 41.92093436171115, 12.496656369647209 41.921061396580285))"/>
+            <column name="TYPE_" value="10"/>
+        </insert>
+        <insert tableName="LOCATION">
+            <column name="ID" value="173ec51b-595c-4f50-b861-39523cf1e61f"/>
+            <column name="CITY" value="Madrid"/>
+            <column name="ADDRESS" value="C. de Valderribas, 28007 Madrid"/>
+            <column name="BUILDING" value="POINT (-3.676315244465376 40.40461763677419)"/>
+            <column name="BUILDING_AREA"
+                    value="POLYGON ((-3.676291518719033 40.40472069637815, -3.6762128314665268  40.40468277874123, -3.676367589887095 40.40449909971022, -3.6764438747127013 40.40453913726799, -3.676291518719033 40.40472069637815))"/>
+            <column name="TYPE_" value="10"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

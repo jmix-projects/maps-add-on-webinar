@@ -1,0 +1,13 @@
+/* Define your styles here */
+
+.user-picture {
+    object-fit: contain;
+}
+
+vaadin-grid.onboarding-steps::part(overdue-step) {
+    color: red;
+}
+
+.location-card {
+    margin: 0.2em 0.2em 0 0;
+}
